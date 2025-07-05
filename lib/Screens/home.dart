@@ -32,6 +32,14 @@ class Home extends StatelessWidget {
                 color: Colors.black,
                 style: BorderStyle.solid,
               ),
+              borderRadius: BorderRadius.circular(20),
+              boxShadow: [
+                BoxShadow(
+                  color: Colors.grey.withOpacity(0.7),
+                  blurRadius: 10,
+                  offset: const Offset(4, 4),
+                ),
+              ],
             ),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
